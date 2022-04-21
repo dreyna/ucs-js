@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c3450;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+a{
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.active, a:hover{
+    color:yellow;
+    border: 1px solid #ffff00;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+}
+.caja{
+    width: 900px;
+    height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+   display: none;
+}
+.prueba{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.box{
+    height: 32px;
+}
+.boton{
+    height: 40px;
+}
+#iframe{
+    width: 70%;
+    height: 85vh;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+iframe{
+    width: 100%;
+    height: 85vh;
+}
